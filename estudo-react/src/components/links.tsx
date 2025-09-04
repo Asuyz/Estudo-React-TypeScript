@@ -1,7 +1,7 @@
 export default function Links() {
     return(
         <div>
-        <h2>Alguns Links das Distros:</h2>
+        <h2>Links de download das distros:</h2>
             <ul>
                 <li><a href="https://ubuntu.com/" target="Blank" rel= 'noopener noreferrer' >Ubuntu</a></li>
                 <li><a href="https://getfedora.org/" target="Blank" rel= 'noopener noreferrer' >Fedora</a></li>
