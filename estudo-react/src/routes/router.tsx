@@ -9,20 +9,20 @@ import Error from "./Error";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
-    errorElement: <Error />,
+    element: <App/>,
+    errorElement: <Error/>,
     children: [
-      {
+        {
         path: "/",
-        element: <Home />,
+        element: <Home/>,
       },
       {
         path: "/linkdistros",
-        element: <LinkDistros />,
+        element: <LinkDistros/>,
       },
       {
         path: "/logodistro",
-        element: <LogoDistro />,
+        element: <LogoDistro/>,
       },
     ],
   },
