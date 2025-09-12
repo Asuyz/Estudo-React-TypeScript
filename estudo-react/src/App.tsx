@@ -16,6 +16,7 @@ function App() {
       <header>
         <h1>Compilado de Distros do Linux</h1>
       </header>
+      <Titulo></Titulo>
       <Outlet/>
       <footer>
         <p>Feito com React Router</p>
